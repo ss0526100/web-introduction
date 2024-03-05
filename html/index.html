@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" />
+    <title>소파의 소개 페이지</title>
+    <style>
+      * {
+        margin: auto;
+      }
+      table {
+        border: 1px solid black;
+      }
+      td {
+        border: 1px solid black;
+      }
+      section {
+        margin: 10px auto;
+        width: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>자기소개</h1>
+      <li>이름 : 소파</li>
+      <li>사는 곳: 송파구 송파동</li>
+      <li>고향 : 대구</li>
+      <li>안녕하세요 헬스와 음악, 코딩을 좋아하는 소파입니다.</li>
+    </section>
+
+    <section>
+      <h2>인생영화 BEST 5</h2>
+      <table>
+        <tr>
+          <th>순위</th>
+          <th>제목</th>
+          <th>포스터</th>
+          <th>바로가기</th>
+        </tr>
+        <tr>
+          <td>1위</td>
+          <td>코코</td>
+          <td>
+            <img src="../images/coco.jpg" />
+          </td>
+          <td>
+            <a
+              href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=3608703&qvt=0&query=%EC%98%81%ED%99%94%20%EC%BD%94%EC%BD%94"
+              >바로가기</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>2위</td>
+          <td>화양연화</td>
+          <td>
+            <img src="../images/itmfl.jpg" />
+          </td>
+          <td>
+            <a
+              href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%ED%99%94%EC%96%91%EC%97%B0%ED%99%94+%EC%98%81%ED%99%94&oquery=%ED%99%94%EC%96%91%EC%97%B0%ED%99%94&tqi=iPiFVwpzL8wssbN9Q6GssssssSC-232132"
+              >바로가기</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>3위</td>
+          <td>해리가 샐리를 만났을 때</td>
+          <td>
+            <img src="../images/whms.jpg" />
+          </td>
+          <td>
+            <a
+              href="https://search.naver.com/search.naver?sm=tab_sug.top&where=nexearch&ssc=tab.nx.all&query=%ED%95%B4%EB%A6%AC%EA%B0%80+%EC%83%90%EB%A6%AC%EB%A5%BC+%EB%A7%8C%EB%82%AC%EC%9D%84+%EB%95%8C&oquery=%ED%98%84%EC%9E%AC&tqi=iPio5lqVOsCssgc95QossssssmG-184981&acq=%ED%95%B4%EB%A6%AC%EA%B0%80+%EC%83%90%EB%A6%AC%EB%A5%BC+%EB%A7%8C%EB%82%AC%EC%9D%84&acr=1&qdt=0"
+              >바로가기</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>4위</td>
+          <td>2022 카타르 월드컵 결승전</td>
+          <td>
+            <img src="../images/worldcup.jpg" />
+          </td>
+          <td>
+            <a
+              href="https://namu.wiki/w/2022%20FIFA%20%EC%9B%94%EB%93%9C%EC%BB%B5%20%EC%B9%B4%ED%83%80%EB%A5%B4/%EA%B2%B0%EC%8A%B9"
+              >바로가기</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>번외</td>
+          <td>지금</td>
+          <td>
+            <img src="../images/now.jpg" />
+          </td>
+          <td>
+            <a href="https://namu.wiki/w/%ED%98%84%EC%9E%AC">바로가기</a>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>방명록</h2>
+      이름: <input type="text" />
+
+      <section>
+        본인 취향 영화
+        <input type="checkbox" />코코 <input type="checkbox" />화양연화
+        <input type="checkbox" />해리가 샐리를 만났을 때
+        <input type="checkbox" />2022 카타르 월드텁 결승전
+        <input type="checkbox" />지금
+        <button type="button">등록</button>
+        <button type="reset">취소</button>
+      </section>
+    </section>
+  </body>
+</html>
